@@ -15,6 +15,7 @@ module.exports = {
       'designer': '#ffe8bb',
       'enthusiast': '#E8DAEF',
       'white': '#fff',
+      'grey-light': '#f9fafb',
     },
     fontSize: {
     },
