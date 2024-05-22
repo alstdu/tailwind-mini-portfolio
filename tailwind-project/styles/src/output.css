@@ -653,6 +653,22 @@ video {
   width: 50%;
 }
 
+.w-3\/6 {
+  width: 50%;
+}
+
+.w-2\/6 {
+  width: 33.333333%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
