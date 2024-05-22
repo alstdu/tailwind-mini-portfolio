@@ -598,18 +598,6 @@ video {
   left: 0px;
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
-
-.m-1\.5 {
-  margin: 0.375rem;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
@@ -627,14 +615,6 @@ video {
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-2 {
@@ -667,6 +647,11 @@ video {
 
 .max-w-4xl {
   max-width: 56rem;
+}
+
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .grid-cols-3 {
@@ -741,12 +726,8 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-1\.5 {
-  padding: 0.375rem;
+.bg-white\/25 {
+  background-color: rgb(255 255 255 / 0.25);
 }
 
 .p-2 {
@@ -759,14 +740,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-3\.5 {
-  padding: 0.875rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-3 {
@@ -845,4 +818,10 @@ video {
 
 .project-modal{
   background: linear-gradient(to right, #00000000, #ffffffb4)
+}
+
+.bg-blur {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  background-color: #ffffff25;
 }
