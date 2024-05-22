@@ -7,20 +7,21 @@
     <link href="../styles/src/output.css" rel="stylesheet">
 </head>
 <body>
+    <!-- header styles -->
     <header class="relative	pt-14 max-w-4xl mx-6">
         <div id="contentContainer" class="grid gap-6 gap-y-8">
             <div id="profileData" class="grid gap-6 text-center leading-none">
                 <div id="profileBorder" class="justify-self-center">
                     <div id="profilePhoto" class="w-28 rounded-full overflow-hidden flex items-end justify-center">
-                        <img src="../assets/dugo-headshot.png" class="w-3/6" alt="headshot of me">
+                        <img src="../assets/dugo-headshot.png" class="w-4/6" alt="headshot of me">
                     </div>
                 </div>
                 <h2 id="profileName" class="text-h2 font-bold">Lexi Dugo</h2>
                 <h3 id="profileProfession" class="text-h3 font-bold">Front-End Developer</h3>
-                <ul id="profileSocials" class="flex justify-center gap-x-3">
-                    <a href="https://instagram.com/lexidugo" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com/ln/lexidugo" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/alstdu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <ul id="profileSocials" class="flex justify-center gap-x-10">
+                    <a href="https://instagram.com/lexidugo" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://linkedin.com/ln/lexidugo" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/alstdu" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
                 </ul>
             </div>
             <div id="profileInfo" class="grid gap-6 grid-cols-3 justify-center gap-x-10	">
@@ -38,13 +39,66 @@
                 </div>
             </div>
             <div id="profileButtons" class="flex items-center justify-center">
-                <a download="" href="../assets/lexidugo-CV.pdf" class="rounded-md bg-enthusiast px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md ">Download CV <i class="fa-solid fa-download"></i></a>
-                <a href=""></a>
+                <a download="" href="../assets/lexidugo-CV.pdf" class="download-cv rounded-md bg-enthusiast px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md">Download CV <i class="fa-solid fa-download"></i></a>
             </div>
         </div>
     </header>
+    <!-- Main content -->
     <main>
-
+        <section class="filters container">
+            <!-- filter tabs -->
+            <ul class="filters-content">
+                <button class="filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md" data-target="#projects">Projects</button>
+                <button class="filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md" data-target="#skills">Skills</button>
+            </ul>
+            <div class="filters-sections">
+                <!-- projects -->
+                <div class="projects-content grid gap-6" data-content id="projects">
+                    <article class="project-card">
+                        <img src="../assets/dndtoolspreview.png" alt="" class="project-img">
+                        <div class="project-modal">
+                            <div>
+                                <span class="projects-subtitle">A collection of D&D tools including a spells table, a point buy calculator and a 3D dice roller. Created using HTML, CSS, JS & packaged with Webpack.</span>
+                                <h3 class="projects-title text-h3">D&D Tools</h3>
+                                <a href="" class="projects-button filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md">some icon or whatever</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="../assets/dndtoolspreview.png" alt="" class="project-img">
+                        <div class="project-modal">
+                            <div>
+                                <span class="projects-subtitle"></span>
+                                <h3 class="projects-title text-h3"></h3>
+                                <a href="" class="projects-button filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md">some icon or whatever</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="../assets/dndtoolspreview.png" alt="" class="project-img">
+                        <div class="project-modal">
+                            <div>
+                                <span class="projects-subtitle"></span>
+                                <h3 class="projects-title text-h3"></h3>
+                                <a href="" class="projects-button filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md">some icon or whatever</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="../assets/dndtoolspreview.png" alt="" class="project-img">
+                        <div class="project-modal">
+                            <div>
+                                <span class="projects-subtitle"></span>
+                                <h3 class="projects-title text-h3"></h3>
+                                <a href="" class="projects-button filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md">some icon or whatever</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <!-- skills -->
+                <div class="skills-content grid" data-content id="skills"></div>
+            </div>
+        </section>
     </main>
     <script src="https://kit.fontawesome.com/3cfd59dd50.js" crossorigin="anonymous"></script>
     <script src=""></script>
