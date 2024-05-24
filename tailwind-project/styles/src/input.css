@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fa-instagram:hover{color:lightblue}
+.fa-linkedin:hover{color:rgb(254, 218, 100)}
+.fa-github:hover{color:rgb(233, 184, 255)}
+.download-cv:hover{background-color:rgb(214, 135, 250)}
+
+.filters-button:hover{
+    background-color: white;
+}
+
+.project-modal{
+    background: linear-gradient(to right, #00000000, #ffffffb4)
+}
+
+.bg-blur {
+    backdrop-filter: blur(4px);
+    background-color: #ffffff25;
+}
